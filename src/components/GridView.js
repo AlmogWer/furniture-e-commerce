@@ -10,7 +10,6 @@ const GridView = ({ products }) => {
           return <Product key={product.id} {...product} />;
         })}
       </div>
-      {/* f */}
     </Wrapper>
   );
 };
