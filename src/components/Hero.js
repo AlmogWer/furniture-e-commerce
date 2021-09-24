@@ -65,7 +65,7 @@ const Wrapper = styled.section`
       width: 100%;
       height: 550px;
       position: relative;
-      border-radius: var(--radius);
+      border-radius: var(--radius-rounded);
       display: block;
       object-fit: cover;
     }
@@ -74,8 +74,8 @@ const Wrapper = styled.section`
       bottom: 0;
       left: 0;
       width: 250px;
-      transform: translateX(-50%);
-      border-radius: var(--radius);
+      transform: translate(-50%, 20%);
+      border-radius: var(--radius-rounded);
     }
     .img-container::before {
       content: "";
@@ -85,7 +85,7 @@ const Wrapper = styled.section`
       background: var(--clr-primary-9);
       bottom: 0%;
       left: -8%;
-      border-radius: var(--radius);
+      border-radius: var(--radius-rounded);
     }
   }
 `;

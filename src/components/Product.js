@@ -26,13 +26,13 @@ const Wrapper = styled.article`
   .container {
     position: relative;
     background: var(--clr-black);
-    border-radius: var(--radius);
+    border-radius: var(--radius-rounded);
   }
   img {
     width: 100%;
     display: block;
     object-fit: cover;
-    border-radius: var(--radius);
+    border-radius: var(--radius-rounded);
     transition: var(--transition);
   }
   .link {

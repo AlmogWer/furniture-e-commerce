@@ -5,10 +5,10 @@ const PageHero = ({ title, product }) => {
   return (
     <Wrapper>
       <div className="section-center">
-        <h3>
+        <h4>
           <Link to="/">Home</Link>
           {product && <Link to="/products">/ Products</Link>}/ {title}
-        </h3>
+        </h4>
       </div>
     </Wrapper>
   );
@@ -17,7 +17,7 @@ const PageHero = ({ title, product }) => {
 const Wrapper = styled.section`
   background: var(--clr-primary-10);
   width: 100%;
-  min-height: 20vh;
+  min-height: 10vh;
   display: flex;
   align-items: center;
 

@@ -1,5 +1,5 @@
 import React, { useContext } from "react";
-import logo from "../assets/logo.svg";
+import logo from "../assets/logo.png";
 import { Link } from "react-router-dom";
 import { useProductsContext } from "../context/products_context";
 import { FaTimes } from "react-icons/fa";
@@ -70,7 +70,8 @@ const SidebarContainer = styled.div`
   }
   .logo {
     justify-self: center;
-    height: 45px;
+
+    height: 70px;
   }
   .links {
     margin-bottom: 2rem;
@@ -103,10 +104,12 @@ const SidebarContainer = styled.div`
     transition: var(--transition);
     transform: translate(-100%);
     z-index: -1;
+    opacity: 0;
   }
   .show-sidebar {
     transform: translate(0);
     z-index: 999;
+    opacity: 1;
   }
   .cart-btn-wrapper {
     margin: 2rem auto;

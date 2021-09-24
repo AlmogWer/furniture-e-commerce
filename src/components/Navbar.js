@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import logo from "../assets/logo.svg";
+import logo from "../assets/logo.png";
 import { FaBars } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import { links } from "../utils/constants";
@@ -59,8 +59,8 @@ const NavContainer = styled.nav`
     align-items: center;
     justify-content: space-between;
     img {
-      width: 175px;
-      margin-left: -15px;
+      width: 350px;
+      margin-left: -40px;
     }
   }
   .nav-toggle {
@@ -90,6 +90,8 @@ const NavContainer = styled.nav`
     .nav-links {
       display: flex;
       justify-content: center;
+      transition: all 0.5s ease;
+
       li {
         margin: 0 0.5rem;
       }
@@ -100,7 +102,7 @@ const NavContainer = styled.nav`
         letter-spacing: var(--spacing);
         padding: 0.5rem;
         &:hover {
-          border-bottom: 2px solid var(--clr-primary-7);
+          border-bottom: 2px solid var(--clr-primary-1);
         }
       }
     }

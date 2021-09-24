@@ -60,10 +60,14 @@ const Wrapper = styled.section`
     background: var(--clr-primary-7);
     text-align: center;
     padding: 2.5rem 2rem;
-    border-radius: var(--radius);
+    border-radius: var(--radius-rounded);
+    transition: all 0.5s ease;
     p {
       color: var(--clr-primary-2);
     }
+  }
+  .service:hover {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   }
   span {
     width: 4rem;
