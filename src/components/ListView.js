@@ -35,7 +35,7 @@ const Wrapper = styled.section`
     width: 300px;
     height: 200px;
     object-fit: cover;
-    border-radius: var(--radius);
+    border-radius: var(--radius-rounded);
     margin-bottom: 1rem;
   }
   h4 {

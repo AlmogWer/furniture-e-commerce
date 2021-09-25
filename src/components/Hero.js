@@ -49,13 +49,17 @@ const Wrapper = styled.section`
     gap: 8rem;
     h1 {
       margin-bottom: 2rem;
+      font-size: 4.7rem;
     }
     p {
       font-size: 1.25rem;
     }
     .hero-btn {
       padding: 0.75rem 1.5rem;
-      font-size: 1rem;
+      font-size: 0.8rem;
+    }
+    .hero-btn:hover {
+      transform: scale(1.2);
     }
     .img-container {
       display: block;
@@ -84,8 +88,20 @@ const Wrapper = styled.section`
       height: 80%;
       background: var(--clr-primary-9);
       bottom: 0%;
-      left: -8%;
+      left: -7%;
       border-radius: var(--radius-rounded);
+    }
+    .img-container::after {
+      content: "";
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      background: transparent;
+      border: 3px solid var(--clr-primary-2);
+      bottom: -8%;
+      left: 8%;
+      border-radius: var(--radius-rounded);
+      z-index: -5;
     }
   }
 `;

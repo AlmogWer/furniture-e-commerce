@@ -252,6 +252,8 @@ const Wrapper = styled.section`
       position: sticky;
       top: 1rem;
     }
+    .clear-btn {
+    }
   }
 `;
 
