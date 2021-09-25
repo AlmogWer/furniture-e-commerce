@@ -125,6 +125,3 @@ npm install netlify-cli -D
 
 ```
 
-```
-
-```
